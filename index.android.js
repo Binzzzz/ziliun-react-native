@@ -86,7 +86,7 @@ var DrawerLayout = React.createClass({
         </View>
         <View style={{
           flex: 2,
-          backgroundColor: '#f7913d',
+          backgroundColor: '#36A3EB',
         }}>
           <ListView
             dataSource={dataSource.cloneWithRows([
@@ -123,7 +123,7 @@ var DrawerLayout = React.createClass({
         drawerWidth={300}
         drawerPosition={DrawerLayoutAndroid.positions.Left}
         renderNavigationView={() => navigationView}>
-        
+
         <View style={{flex: 1}}>
           <ToolbarAndroid
             actions={[]}
@@ -193,7 +193,7 @@ var styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   toolbar: {
-    backgroundColor: '#f7913d',
+    backgroundColor: '#36A3EB',
     height: 56,
   },
   listMenu: {

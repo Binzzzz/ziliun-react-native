@@ -78,7 +78,7 @@ var DrawerLayout = React.createClass({
           alignItems: 'stretch'}}>
         <View style={{
           flex: 1,
-          backgroundColor: '#f7913d',
+          backgroundColor: '#36A3EB',
           height: 60,
         }}>
           <Text>Ziliun</Text>
@@ -121,7 +121,7 @@ var DrawerLayout = React.createClass({
         drawerWidth={300}
         drawerPosition={DrawerLayoutAndroid.positions.Left}
         renderNavigationView={() => navigationView}>
-        
+
         {this.props.children}
 
       </DrawerLayoutAndroid>
@@ -202,7 +202,7 @@ var styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   toolbar: {
-    backgroundColor: '#f7913d',
+    backgroundColor: '#36A3EB',
     height: 56,
   },
   listMenu: {
