@@ -86,7 +86,7 @@ var DrawerLayout = React.createClass({
         </View>
         <View style={{
           flex: 2,
-          backgroundColor: '#36A3EB',
+          backgroundColor: '#f7913d',
         }}>
           <ListView
             dataSource={dataSource.cloneWithRows([
@@ -193,7 +193,7 @@ var styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   toolbar: {
-    backgroundColor: '#36A3EB',
+    backgroundColor: '#f7913d',
     height: 56,
   },
   listMenu: {

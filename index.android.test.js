@@ -78,7 +78,7 @@ var DrawerLayout = React.createClass({
           alignItems: 'stretch'}}>
         <View style={{
           flex: 1,
-          backgroundColor: '#36A3EB',
+          backgroundColor: '#f7913d',
           height: 60,
         }}>
           <Text>Ziliun</Text>
@@ -202,7 +202,7 @@ var styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   toolbar: {
-    backgroundColor: '#36A3EB',
+    backgroundColor: '#f7913d',
     height: 56,
   },
   listMenu: {

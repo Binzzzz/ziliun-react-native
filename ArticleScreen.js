@@ -78,7 +78,7 @@ var ArticleListScreen = React.createClass({
           <View style={{flex: 1, padding: 15}}>
             <Text style={{fontSize: 18, fontWeight: 'bold', lineHeight: 24, textAlign: 'center'}}>{this.state.article.title}</Text>
             <View style={{marginBottom: 20, marginTop: 10}}>
-              <Text style={{fontSize: 10, fontWeight: 'bold', color: '#36A3EB', textAlign: 'center'}}>{this.state.article.category} - {this.state.article.author}</Text>
+              <Text style={{fontSize: 10, fontWeight: 'bold', color: '#f7913d', textAlign: 'center'}}>{this.state.article.category} - {this.state.article.author}</Text>
             </View>
             {text}
           </View>
@@ -102,7 +102,7 @@ var styles = StyleSheet.create({
   },
   a: {
     fontWeight: '300',
-    color: '#FF3366', // pink links 
+    color: '#FF3366', // pink links
   },
   text: {
     padding: 5,
